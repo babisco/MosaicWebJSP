@@ -39,7 +39,7 @@
 
 4. JSP
 
-5.  Servlet
+5. Servlet
 
 5. SpringLoaded
 
