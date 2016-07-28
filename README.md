@@ -66,7 +66,7 @@
 		- >> dependencies => compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
 	- Eclipse Output Directory 변경
 		- >> bin => build/classes/main
-		(properties->buildpath->sources->output directory)
+		(properties->Java build path->source->output folder)
 		 
 7. Mybatis
 
