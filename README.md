@@ -31,18 +31,25 @@
 
 3. HTML Setting
 	
-	- 설정 불필요 (dependencis를 web으로 설정했기 때문에)
+	- setting 불필요 (dependencis를 web으로 설정했기 때문에)
 	- mkdir src/main/webapp 폴더생성
 	- notepad src/main/webapp/Hello.html
 	- gradle bootRun
 	- Chrome => http://localhost:8080/Hello.html
 
-4. JSP
+4. JSP Setting
+	
+	- mvnrepository.com => search : tomcat jasper
+	- build.gradle dependency (open with minimalist)
+		- >> compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4' 
+	- notepad src/main/webapp/Hello.jsp
+	- gradle bootRun
+	- Chrome => http://localhost:8080/Hello.jsp
 
 5. Servlet
 
-5. SpringLoaded
+6. SpringLoaded
 
-6. Mybatis
+7. Mybatis
 
-7. Gluon
+8. Gluon
