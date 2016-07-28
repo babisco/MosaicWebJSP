@@ -13,5 +13,15 @@
 
 	- Remote Repository 생성 => github.com
 	- Local Repository 생성
+		->> dir /a > .gitignore
+		->> notepad .gitignore 편집
+		->> git init
+		->> git status
+		->> git add * or git add .
+		->> git log
+		->> git commit -m "first commit"
 	- Local => Remote push (최초 동기화)
-	- 
+		->> git remote -v
+		->> git
+		->> git remote add origin https://github.com/babisco/MosaicWeb.git
+		->> git push -u origin master 
