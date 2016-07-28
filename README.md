@@ -28,3 +28,21 @@
 		- >> git clone https://github.com/babisco/MosaicWeb.git
 		- >> git clone https://github.com/babisco/MosaicWeb.git MosaicWebDev
 		- >> Eclipse Gradle Import
+
+3. HTML Setting
+	
+	- 설정 불필요 (dependencis를 web으로 설정했기 때문에)
+	- mkdir src/main/webapp 폴더생성
+	- notepad src/main/webapp/Hello.html
+	- gradle bootRun
+	- Chrome => http://localhost:8080/Hello.html
+
+4. JSP
+
+5.  Servlet
+
+5. SpringLoaded
+
+6. Mybatis
+
+7. Gluon
