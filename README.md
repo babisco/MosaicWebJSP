@@ -84,7 +84,19 @@
 		- >> spring.datasource.username=scott
 		- >> spring.datasource.password=tiger
 	- gradle bootRun 
+	
 	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java 인터페이스 생성 (DB관련)
-	- notepad src/main/java/com/hybrid/dao/DeptDao.java 클래스 생성 (
+	- notepad src/main/java/com/hybrid/domain/Dept.java 
+	- notepad src/test/java/com/hybrid/mapper/DeptMapperTest.java
+	- notepad src/main/webapp/dept.jsp
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 8. Gluon
