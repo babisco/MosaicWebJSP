@@ -106,6 +106,6 @@
 		- >> dependencies => Gluon 설정
 	- merge com.hybrid.fx.MainApplication com.hybrid.MosaicWebApplication
 		- >> spring boot + gluon start together
-		- >> spring boot + gluon stop together
+		- >> spring boot + gluon stop together (menuaction exit도해줘야함)
 		- >> PrimaryView에 WebView 추가
 
