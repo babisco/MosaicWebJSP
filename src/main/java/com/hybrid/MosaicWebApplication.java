@@ -12,3 +12,5 @@ public class MosaicWebApplication {
 		SpringApplication.run(MosaicWebApplication.class, args);
 	}
 }
+
+ 
