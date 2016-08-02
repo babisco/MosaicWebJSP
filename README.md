@@ -109,3 +109,10 @@
 		- >> spring boot + gluon stop together (menuaction exit도해줘야함)
 		- >> PrimaryView에 WebView 추가
 
+10. SiteMesh 설정
+	
+	- mvnrepository.com => search : sitemesh library
+	- build.gradle
+		- >> dependencies => compile group: 'org.sitemesh', name: 'sitemesh', version: '3.0.1'
+	- com.hybird.config => SiteMeshFilterConfig.java 생성
+		- >> builder.addDecoratorPath("/deco/*", "/WEB-INF/deco/maindeco.jsp");
