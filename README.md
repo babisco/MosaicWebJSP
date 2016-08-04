@@ -116,3 +116,15 @@
 		- >> dependencies => compile group: 'org.sitemesh', name: 'sitemesh', version: '3.0.1'
 	- com.hybird.config => SiteMeshFilterConfig.java 생성
 		- >> builder.addDecoratorPath("/deco/*", "/WEB-INF/deco/maindeco.jsp");
+		
+11. Spring Security 설정
+	
+	- mvnrepository.com => search : spring boot security starter 
+						   search : spring security taglibs
+	- build.gradle
+		- >> dependencies => compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '1.3.6.RELEASE'
+						  => compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.0.4.RELEASE'
+	- 
+
+		
+	
