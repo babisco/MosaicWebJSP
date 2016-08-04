@@ -124,7 +124,10 @@
 	- build.gradle
 		- >> dependencies => compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '1.3.6.RELEASE'
 						  => compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.0.4.RELEASE'
-	- 
+
+	- 경로 설정시 "/" welcomepage 즉 default로 이동 
+ 	- 하위폴더 설정은 "/**"로 해주면 권한이 다 설정됨 
+	 
 
 		
 	
