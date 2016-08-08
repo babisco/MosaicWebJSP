@@ -128,6 +128,10 @@
 	- 경로 설정시 "/" welcomepage 즉 default로 이동 
  	- 하위폴더 설정은 "/**"로 해주면 권한이 다 설정됨 
 	 
-
+12. JSTL 설정
+	
+	- mvnrepository.com => search : jstl (javax.servlet.jsp.jstl)
+	- build.gradle
+		- >> dependencies => compile group: 'javax.servlet', name: 'jstl', version: '1.2'
 		
 	
